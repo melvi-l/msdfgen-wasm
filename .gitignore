@@ -30,3 +30,25 @@ out/
 /build_xcode/
 /cmake-gen.bat
 /line-ending-check.bat
+
+# Build artifacts
+/build_wasm/
+/dist/
+
+CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/install_manifest.txt
+/compile_commands.json
+
+# Compiled objects & libs
+*.o
+*.obj
+*.a
+*.wasm
+*.wasm.map
+*.js.map
+
+# OS/editor noise
+.DS_Store
+*.log
